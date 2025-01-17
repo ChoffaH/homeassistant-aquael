@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "host": "Värd"
+        }
+      }
+    },
+    "error": {
+      "connection_error": "Kan inte ansluta till Leddy light. Kontrollera att du använder rätt värdadress."
+    },
+    "abort": {
+      "already_configured": "Enheten är redan konfigurerad."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+            "color_red": "Röd (standard 200)",
+            "color_blue": "Blå (standard 200)",
+            "color_white": "Vit (standard 112)"
+        },
+        "description": "Justera färgerna som används för att ställa in ljusets färg och beräkna ljusstyrkan.\nStandardvärdena representerar Leddy plant."
+      }
+    }
+  }
+}

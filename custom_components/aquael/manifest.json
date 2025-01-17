@@ -1,0 +1,11 @@
+{
+  "domain": "aquael",
+  "name": "Aquael",
+  "version": "1.0.0",
+  "codeowners": ["@choffah"],
+  "documentation": "",
+  "issue_tracker": "https://github.com/ChoffaH/homeassistant-aquael/issues",
+  "dependencies": [],
+  "requirements": ["pyaquael==2.0.1"],
+  "config_flow": true
+}
