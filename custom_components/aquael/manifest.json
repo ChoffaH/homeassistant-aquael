@@ -1,11 +1,13 @@
 {
   "domain": "aquael",
   "name": "Aquael",
-  "version": "1.0.0",
   "codeowners": ["@choffah"],
-  "documentation": "",
-  "issue_tracker": "https://github.com/ChoffaH/homeassistant-aquael/issues",
+  "config_flow": true,
   "dependencies": [],
+  "documentation": "https://github.com/ChoffaH/homeassistant-aquael",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/ChoffaH/homeassistant-aquael/issues",
   "requirements": ["pyaquael==2.0.1"],
-  "config_flow": true
+  "version": "1.0.0"
 }
